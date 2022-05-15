@@ -24,8 +24,7 @@ export function TaskList() {
 
       setNewTaskTitle('')
       setTasks([...tasks, newTask])
-    } else
-      alert('O título não pode ser vazio.')
+    }
   }
 
   function handleToggleTaskCompletion(id: number) {
