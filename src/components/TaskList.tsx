@@ -23,8 +23,7 @@ export function TaskList() {
       }
 
       setNewTaskTitle('')
-      tasks.push(newTask)
-      setTasks([...tasks])
+      setTasks([...tasks, newTask])
     } else
       alert('O título não pode ser vazio.')
   }
